@@ -81,7 +81,7 @@ h2 {
 }
 
 .twitter-bird {
-    background: url("img/sprite.png") no-repeat scroll 0 -119px transparent;
+    background: url(../images/sprite.png) no-repeat scroll 0 -119px transparent;
     height: 19px;
     left: 0;
     position: absolute;
