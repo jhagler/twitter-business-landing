@@ -1,0 +1,210 @@
+
+/*---------FONTS-------------*/
+@font-face {
+    font-family: 'gazebo-cond-light-font';
+    src: url(fonts/258B85_6_0.eot);
+    src: url(fonts/258B85_6_0.eot?#iefix) format('embedded-opentype'), url(fonts/258B85_6_0.woff) format('woff'), url(fonts/258B85_6_0.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'gazebo-bold-font';
+    src: url(fonts/258B85_8_0.eot);
+    src: url(fonts/258B85_8_0.eot?#iefix) format('embedded-opentype'), url(fonts/258B85_8_0.woff) format('woff'), url(fonts/258B85_8_0.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'gazebo-cond-semibold-font';
+    src: url(fonts/258B85_7_0.eot);
+    src: url(fonts/258B85_7_0.eot?#iefix) format('embedded-opentype'), url(fonts/258B85_7_0.woff) format('woff'), url(fonts/258B85_7_0.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'gazebo-regular-font';
+    src: url(fonts/269F4F_2_0.eot);
+    src: url(fonts/269F4F_2_0.eot?#iefix) format('embedded-opentype'), url(fonts/269F4F_2_0.woff) format('woff'), url(fonts/269F4F_2_0.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'gazebo-regular-it-font';
+    src: url(fonts/269F4F_0_0.eot);
+    src: url(fonts/269F4F_0_0.eot?#iefix) format('embedded-opentype'), url(fonts/269F4F_0_0.woff) format('woff'), url(fonts/269F4F_0_0.ttf) format('truetype');
+}
+/*---------END  FONTS-------------*/
+
+body {
+    margin: 0;
+    font-family: gazebo-regular-font;
+    font-size: 24px;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+#page-wrapper {
+    position: relative;
+    width: 1350px;
+    margin:0 auto;
+}
+
+/*---------------------MASTHEAD-------------------*/
+
+.container {
+    width: 950px;
+    margin: 0 auto;
+}
+
+#masthead {
+    background: none repeat scroll 0 0 #FFFFFF;
+    /*box-shadow: 0 0 3px #AAAAAA;*/
+    min-height: 40px;
+    width: 1350px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    color: #333333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 auto;
+}
+
+#site-name {
+    float: left;
+    font-size: 22px;
+    font-weight: normal;
+    padding: 10px 0 0;
+}
+
+#site-name a {
+    color: #555555;
+    padding-left: 27px;
+    position: relative;
+    text-decoration: none;
+}
+
+.twitter-bird {
+    background: url("img/sprite.png") no-repeat scroll 0 -119px transparent;
+    height: 19px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 24px;
+}
+
+#sign-in {
+    float: right;
+}
+/*------------END  MASTHEAD-------------*/
+
+/*------HERO---------*/
+
+#hero {
+    background: url(../images/hero-bg.jpg) no-repeat top center;
+    height: 392px;
+    width: 1350px;
+    margin-top: 40px;
+    
+    color:#FFFFFF;
+    text-align: center;
+}
+
+#hero h1{
+    font-size: 48px;
+    margin: 0px auto;
+    padding-top: 90px;
+    font-family: gazebo-bold-font;
+    font-weight: normal;
+}
+
+#hero p{
+    font-size: 24px;
+    margin: 10px auto;
+    width: 700px;
+    font-family: gazebo-regular-font;
+    font-weight: normal;
+}
+/*---END HERO----*/
+
+/*---CTA-BAR-----*/
+#cta-bar {
+    background-color: #F8F8F8;
+    width: 1350px;
+    padding: 15px 0;
+    font-size: 17px;
+
+}
+
+#cta-wrapper {
+    margin: 0 auto;
+    width: 500px;
+
+}
+
+#cta-wrapper span {
+    
+    display: inline-block;
+    position: relative;
+
+}
+
+
+#cta-wrapper span.left {
+    margin-right: 44px;
+    width:200px;
+}
+
+#cta-wrapper span.pipe {
+    width: 2px;
+}
+
+ #cta-wrapper span.right {
+    margin-left:80px;
+    width: 160px;
+ }
+
+#cta-wrapper span span {
+    display: inline;
+    position: absolute;
+    top: 15px;
+    left: 70px;
+
+}
+
+/*------END CTA-BAR---------*/
+
+
+
+#growth, #customers, #engagement, #access{
+	min-height:500px;
+    padding-top: 30px;
+    -webkit-margin-after:-24px;
+}
+
+.top-wrapper {
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.odd .top-wrapper {
+    color:#333333;
+}
+
+.even .top-wrapper {
+    color:#FFFFFF;
+}
+
+.top-wrapper .rule {
+    width: 92px;
+    height: 9px;
+    background: url(../images/rule.png) no-repeat top center;
+    margin: 0 auto;
+}
+
+.odd {
+    background: url(../images/odd-bg.jpg)
+}
+
+.even {
+    background: url(../images/even-bg.jpg);
+}
+
+
