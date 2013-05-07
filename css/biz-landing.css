@@ -38,6 +38,7 @@ h2 {
     padding: 0;
     font-family: gazebo-regular-font;
     font-size: 36px;
+    font-weight: normal;
 }
 
 #page-wrapper {
@@ -180,6 +181,10 @@ h2 {
     -webkit-margin-after:-24px;
 }
 
+#access {
+    -webkit-margin-after:0px;
+}
+
 .top-wrapper {
     width: 700px;
     margin: 0 auto;
@@ -209,6 +214,31 @@ h2 {
     background: url(../images/even-bg.jpg);
 }
 
+#ready{
+    background: url(../images/ready-rule.png) no-repeat center 75px;
+    height: 300px;
+    -webkit-margin-after:-24px;
+}
+
+#ready .twitter-bird {
+    background: url(../images/sprite.png) no-repeat scroll 0 -94px transparent;
+    position: static;
+    margin: 20px auto;
+    height: 25px;
+
+    width: 30px;
+}
+
+#ready p {
+    margin: 20px auto;
+    text-align: center;
+}
+
+#ready #sign-up-button {
+    margin: 30px auto;
+    width: 183px;
+
+}
 /*-------------FOOTER STYLES FROM TWITTER BUSINESS SITE--------------------*/
 
 footer#globalfooter {
