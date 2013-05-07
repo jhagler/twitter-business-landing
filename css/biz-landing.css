@@ -209,4 +209,47 @@ h2 {
     background: url(../images/even-bg.jpg);
 }
 
+/*-------------FOOTER STYLES FROM TWITTER BUSINESS SITE--------------------*/
 
+footer#globalfooter {
+    background: transparent;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+#globalfooter {
+    padding: 18px 0;
+}
+#globalfooter .g-menu-global-footer {
+    float: left;
+    font-size: 13px;
+}
+#globalfooter .g-menu-global-footer .nav {
+    margin: 0;
+}
+#globalfooter .g-menu-global-footer li {
+    display: inline-block;
+    *display: inline;
+    margin-right: 10px;
+    zoom: 1;
+}
+#globalfooter .nav > li > a {
+    color: #2290BF;
+    outline: 0 none;
+    text-decoration: none;
+
+}
+
+#globalfooter .nav > li > a:hover {
+    background: transparent;
+    text-decoration: underline;
+}
+#globalfooter .g-menu-global-footer li:last-child {
+    margin: 0;
+}
+#globalfooter .copyright {
+    color: #555;
+    display: block;
+    float: right;
+    font-size: 13px;
